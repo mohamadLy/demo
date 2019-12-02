@@ -12,7 +12,7 @@ object Demo extends App {
 
   val topic = "videoFeedTopic"
 
-  val system = ActorSystem("ciscodemo-receiver")
+  val system = ActorSystem("demo-receiver")
   DB.initDB()
 
   // Test data
